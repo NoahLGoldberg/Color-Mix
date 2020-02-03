@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let color = UIColor(displayP3Red: 1.0, green: 1.0, blue: 0.0, alpha: 1)
+        let color = UIColor(displayP3Red: 0.0, green: 0.0, blue: 0.0, alpha: 1)
         colorView.backgroundColor = color
     }
-
-
+    
+    @IBAction func switchChanged(_ sender: UISwitch) {
+        let color = UIColor(displayP3Red: 0.0, green: 0.5, blue: 0.5, alpha: 1)
+        colorView.backgroundColor = color
+    }
+    
 }
 

@@ -27,7 +27,21 @@
                                 <rect key="frame" x="184" y="433" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="nFf-Oi-Ofq"/>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qMG-bn-3mg"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-c5-Hlc">
+                                <rect key="frame" x="184" y="472" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="6Tg-df-Fp4"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IS-mG-RDf">
+                                <rect key="frame" x="184" y="511" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="wzZ-II-x09"/>
                                 </connections>
                             </switch>
                         </subviews>
@@ -35,13 +49,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="blueSwitch" destination="4IS-mG-RDf" id="Dqt-tk-ZC6"/>
                         <outlet property="colorView" destination="fB1-tR-a9O" id="1J9-x8-TST"/>
-                        <outlet property="switchChanged" destination="gZY-Gf-eJK" id="qDn-ch-iOv"/>
+                        <outlet property="greenSwitch" destination="Tes-c5-Hlc" id="aTD-7u-t8Q"/>
+                        <outlet property="redSwitch" destination="gZY-Gf-eJK" id="R9T-zD-Tac"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-168.11594202898553" y="83.705357142857139"/>
+            <point key="canvasLocation" x="-148" y="64"/>
         </scene>
     </scenes>
 </document>
